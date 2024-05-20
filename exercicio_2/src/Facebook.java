@@ -36,7 +36,7 @@ public class Facebook extends RedeSocial implements VideoConferencia, Compartilh
 
     @Override
     public void executaAcoes() {
-        super.executaAcoes();
+        postarFoto();
         fazStreaming();
         compartilhar();
     }

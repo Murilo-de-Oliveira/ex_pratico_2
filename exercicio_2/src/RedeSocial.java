@@ -33,9 +33,5 @@ public abstract class RedeSocial{
     public void curtirPublicacao(){
         System.out.print("Você curtiu uma publicação no ");
     };
-    public void executaAcoes(){
-        postarFoto();
-        postarVideo();
-        postarComentario();
-    }
+    public abstract void executaAcoes();
 }

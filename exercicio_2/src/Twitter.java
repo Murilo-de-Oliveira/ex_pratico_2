@@ -26,10 +26,11 @@ public class Twitter extends RedeSocial implements Compartilhamento{
 
     @Override
     public void compartilhar() {
-        System.out.println("Uma mídia foi compartilhada no Twitter");
+        System.out.println("Compartilhou uma mídia no Facebook");
     }
     public void executaAcoes() {
-        super.executaAcoes();
-        compartilhar();
+        postarFoto();
+        postarComentario();
+        curtirPublicacao();
     }
 }

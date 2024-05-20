@@ -23,4 +23,10 @@ public class Instagram extends RedeSocial{
         super.curtirPublicacao();
         System.out.println("Instagram");
     }
+
+    @Override
+    public void executaAcoes() {
+        postarVideo();
+        postarComentario();
+    }
 }

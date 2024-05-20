@@ -35,7 +35,7 @@ public class GooglePlus extends RedeSocial implements VideoConferencia, Comparti
     }
 
     public void executaAcoes() {
-        super.executaAcoes();
+        postarVideo();
         fazStreaming();
         compartilhar();
     }
